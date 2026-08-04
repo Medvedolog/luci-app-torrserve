@@ -739,7 +739,7 @@ return view.extend({
             .ts-row   { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
             .ts-label { width: 220px; flex-shrink: 0; font-size: 13px; color: var(--text-color-high, #f5f5f5); }
             .ts-help { position: relative; display: inline-block; margin-left: 6px; width: 16px; height: 16px; line-height: 16px; text-align: center; border-radius: 50%; background: rgba(127,127,127,.18); color: var(--text-color-medium, #aaa); font-size: 11px; cursor: help; }
-            .ts-help:hover::after { content: attr(data-tip); position: absolute; z-index: 9999; left: 20px; top: -8px; width: max-content; max-width: 360px; padding: 8px 10px; border-radius: 6px; background: rgba(20,24,32,.96); border: 1px solid var(--border-color-medium, rgba(255,255,255,.18)); color: var(--text-color-high, #f5f5f5); font-size: 12px; line-height: 1.35; text-align: left; white-space: normal; box-shadow: 0 4px 14px rgba(0,0,0,.35); }
+            .ts-help:hover::after { content: attr(data-tip); position: absolute; z-index: 9999; left: 20px; top: -8px; width: max-content; max-width: 360px; padding: 8px 10px; border-radius: 6px; background: var(--background-color-high, rgba(20,24,32,.96)); border: 1px solid var(--border-color-medium, rgba(255,255,255,.18)); color: var(--text-color-high, #f5f5f5); font-size: 12px; line-height: 1.35; text-align: left; white-space: normal; box-shadow: 0 4px 14px rgba(0,0,0,.35); }
             .ts-field { flex: 1; min-width: 260px; }
             .ts-field input[type=text], .ts-field input[type=number], .ts-field select { width: 100%; max-width: 420px; box-sizing: border-box; }
             .ts-chk { width: 16px; height: 16px; cursor: pointer; }
